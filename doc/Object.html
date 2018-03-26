@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Object - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  
+  <p class="link">BasicObject
+  
+</div>
+
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-all-3F">#all?</a>
+    
+    <li ><a href="#method-i-any-3F">#any?</a>
+    
+    <li ><a href="#method-i-block_method_2">#block_method_2</a>
+    
+    <li ><a href="#method-i-block_method_3">#block_method_3</a>
+    
+    <li ><a href="#method-i-bubble_sort-21">#bubble_sort!</a>
+    
+    <li ><a href="#method-i-check_return_with_lambda">#check_return_with_lambda</a>
+    
+    <li ><a href="#method-i-compute">#compute</a>
+    
+    <li ><a href="#method-i-convert_to_base_8">#convert_to_base_8</a>
+    
+    <li ><a href="#method-i-count">#count</a>
+    
+    <li ><a href="#method-i-danish">#danish</a>
+    
+    <li ><a href="#method-i-divisors">#divisors</a>
+    
+    <li ><a href="#method-i-drop_while">#drop_while</a>
+    
+    <li ><a href="#method-i-each">#each</a>
+    
+    <li ><a href="#method-i-each_cons">#each_cons</a>
+    
+    <li ><a href="#method-i-each_with_index">#each_with_index</a>
+    
+    <li ><a href="#method-i-each_with_object">#each_with_object</a>
+    
+    <li ><a href="#method-i-fields">#fields</a>
+    
+    <li ><a href="#method-i-format_date">#format_date</a>
+    
+    <li ><a href="#method-i-gather">#gather</a>
+    
+    <li ><a href="#method-i-map">#map</a>
+    
+    <li ><a href="#method-i-max_by">#max_by</a>
+    
+    <li ><a href="#method-i-missing">#missing</a>
+    
+    <li ><a href="#method-i-mysterious_math">#mysterious_math</a>
+    
+    <li ><a href="#method-i-mystery_math">#mystery_math</a>
+    
+    <li ><a href="#method-i-none-3F">#none?</a>
+    
+    <li ><a href="#method-i-one-3F">#one?</a>
+    
+    <li ><a href="#method-i-param_passer">#param_passer</a>
+    
+    <li ><a href="#method-i-reduce">#reduce</a>
+    
+    <li ><a href="#method-i-rot13">#rot13</a>
+    
+    <li ><a href="#method-i-select">#select</a>
+    
+    <li ><a href="#method-i-step">#step</a>
+    
+    <li ><a href="#method-i-times">#times</a>
+    
+    <li ><a href="#method-i-url-3F">#url?</a>
+    
+    <li ><a href="#method-i-word_finder">#word_finder</a>
+    
+    <li ><a href="#method-i-zip">#zip</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Object">
+  <h1 id="class-Object" class="class">
+    class Object
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-all-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">all?</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may not use any standard ruby method that is named all?, any?,
+none?, or one?.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="all-3F-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/07.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">all?</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span> <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">unless</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) }
+  <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-any-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">any?</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may not use any standard ruby method that is named all?, any?,
+none?, or one?.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="any-3F-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/06.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">any?</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span> <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) }
+  <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-block_method_2" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">block_method_2</span><span
+            class="method-args">(animal) { |animal| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p># My observations: It appears if you are yielding to a block, and that
+block takes a parameter, you explicitly have to pass it an argument,
+otherwise the parameter will represent &#39;nil&#39; (and not raise an
+exception) Also, if you specify a yield in the code without possibly
+bypassing it with a conditional (i.e., block_given?), an exception will be
+raised.</p>
+
+<p># Group 4</p>
+          
+          
+
+          
+          <div class="method-source-code" id="block_method_2-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/06.rb, line 65</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">block_method_2</span>(<span class="ruby-identifier">animal</span>)
+  <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">animal</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-block_method_3" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">block_method_3</span><span
+            class="method-args">() { || ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p># My observations: Same observation as Group 3.</p>
+
+<p># Group 5</p>
+          
+          
+
+          
+          <div class="method-source-code" id="block_method_3-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/07.rb, line 67</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">block_method_3</span>
+  <span class="ruby-keyword">yield</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-bubble_sort-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">bubble_sort!</span><span
+            class="method-args">(array) { |array, array| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <pre>  break unless swapped
+end
+nil</pre>
+
+<p>end</p>
+          
+          
+
+          
+          <div class="method-source-code" id="bubble_sort-21-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/10.rb, line 19</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">bubble_sort!</span>(<span class="ruby-identifier">array</span>)
+  <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">swapped</span> = <span class="ruby-keyword">false</span>
+    <span class="ruby-value">1</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-identifier">array</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">index</span><span class="ruby-operator">|</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+        <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>], <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span>])
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>] <span class="ruby-operator">&lt;=</span> <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span>]
+      <span class="ruby-keyword">end</span>
+      <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>], <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span>] = <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span>], <span class="ruby-identifier">array</span>[<span class="ruby-identifier">index</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>]
+      <span class="ruby-identifier">swapped</span> = <span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">break</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">swapped</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">nil</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-check_return_with_lambda" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">check_return_with_lambda</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p># My observations: Again, it seems the return, which is inside a block, is
+executed before being called.</p>
+
+<p># Group 3</p>
+          
+          
+
+          
+          <div class="method-source-code" id="check_return_with_lambda-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/07.rb, line 38</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">check_return_with_lambda</span>
+  <span class="ruby-identifier">my_lambda</span> = <span class="ruby-identifier">lambda</span> { <span class="ruby-keyword">return</span> }
+  <span class="ruby-identifier">my_lambda</span>.<span class="ruby-identifier">call</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;This will be output to screen.&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-compute" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">compute</span><span
+            class="method-args">() { |: 'Does not compute.'| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write a method that takes an optional block. If the block is specified, the
+method should execute it, and return the value returned by the block. If no
+block is specified, the method should simply return the String &#39;Does
+not compute.&#39;.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="compute-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/02.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">compute</span>
+  <span class="ruby-identifier">block_given?</span> <span class="ruby-operator">?</span> <span class="ruby-keyword">yield</span> <span class="ruby-operator">:</span> <span class="ruby-string">&#39;Does not compute.&#39;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-convert_to_base_8" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">convert_to_base_8</span><span
+            class="method-args">(n)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Using this information, together with the course page linked above, fill in
+the missing part of the following code so we can convert an array of
+integers to base 8. Use the comments for help in determining where to make
+your modifications, and make sure to review the “Approach/Algorithm”
+section for this exercise; it should prove useful.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="convert_to_base_8-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/08.rb, line 35</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">convert_to_base_8</span>(<span class="ruby-identifier">n</span>)
+  <span class="ruby-identifier">n</span>.<span class="ruby-identifier">to_s</span>(<span class="ruby-value">8</span>).<span class="ruby-identifier">to_i</span> <span class="ruby-comment"># replace these two method calls</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-count" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">count</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>You may not use Array#count or Enumerable#count in your solution.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="count-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/10.rb, line 7</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">count</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">truths</span> = <span class="ruby-value">0</span>
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span> <span class="ruby-identifier">truths</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) }
+  <span class="ruby-identifier">truths</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-danish" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">danish</span><span
+            class="method-args">(str)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write a method that changes the first occurrence of the word apple,
+blueberry, or cherry in a string to danish.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="danish-source">
+            <pre><span class="ruby-comment"># File lesson_2/regex_book/5.rb, line 4</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">danish</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">sub</span>(<span class="ruby-regexp">/\b(apple|blueberry|cherry)\b/</span>, <span class="ruby-string">&#39;danish&#39;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-divisors" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">divisors</span><span
+            class="method-args">(int)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>def divisors(int)</p>
+
+<pre class="ruby"><span class="ruby-identifier">half</span> = <span class="ruby-identifier">int</span> <span class="ruby-operator">/</span> <span class="ruby-value">2</span>
+<span class="ruby-identifier">list</span> = [<span class="ruby-value">1</span>]
+<span class="ruby-identifier">half</span>.<span class="ruby-identifier">downto</span>(<span class="ruby-value">2</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">int</span> <span class="ruby-operator">%</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+    <span class="ruby-identifier">list</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">i</span>
+    <span class="ruby-comment"># list &lt;&lt; (int / i) unless i == 1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+<span class="ruby-identifier">list</span>.<span class="ruby-identifier">sort</span>
+</pre>
+
+<p>end</p>
+          
+          
+
+          
+          <div class="method-source-code" id="divisors-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/04.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">divisors</span>(<span class="ruby-identifier">int</span>)
+  <span class="ruby-identifier">divs</span> = [<span class="ruby-value">1</span>, <span class="ruby-identifier">int</span>]
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">divs</span>.<span class="ruby-identifier">uniq</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">int</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span>
+  <span class="ruby-identifier">denom</span> = <span class="ruby-value">2</span>
+  <span class="ruby-keyword">until</span> <span class="ruby-identifier">divs</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">denom</span>)
+    <span class="ruby-identifier">inverse</span> = <span class="ruby-identifier">int</span> <span class="ruby-operator">/</span> <span class="ruby-identifier">denom</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">int</span> <span class="ruby-operator">%</span> <span class="ruby-identifier">denom</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">divs</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">denom</span>, <span class="ruby-identifier">inverse</span>)
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">denom</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">divs</span>.<span class="ruby-identifier">uniq</span>.<span class="ruby-identifier">sort</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-drop_while" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">drop_while</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may use <a href="Object.html#method-i-each">each</a>, <a
+href="Object.html#method-i-each_with_object">each_with_object</a>, <a
+href="Object.html#method-i-each_with_index">each_with_index</a>, inject,
+loop, for, while, or until to iterate through the Array passed in as an
+argument, but must not use any other methods that iterate through an Array
+or any other collection.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="drop_while-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/05.rb, line 20</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">drop_while</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each_with_index</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span>, <span class="ruby-identifier">idx</span><span class="ruby-operator">|</span> <span class="ruby-keyword">return</span> <span class="ruby-identifier">ary</span>[<span class="ruby-identifier">idx</span><span class="ruby-operator">..</span><span class="ruby-value">-1</span>] <span class="ruby-keyword">unless</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) }
+  []
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-each" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">each</span><span
+            class="method-args">(ary) { |ary| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="each-source">
+            <pre><span class="ruby-comment"># File lesson_1/each.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">counter</span> = <span class="ruby-value">0</span>
+
+  <span class="ruby-keyword">until</span> <span class="ruby-identifier">counter</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">ary</span>[<span class="ruby-identifier">counter</span>])
+    <span class="ruby-identifier">counter</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">ary</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-each_cons" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">each_cons</span><span
+            class="method-args">(ary) { |pairs| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may use <a href="Object.html#method-i-each">each</a>, <a
+href="Object.html#method-i-each_with_object">each_with_object</a>, <a
+href="Object.html#method-i-each_with_index">each_with_index</a>, inject,
+loop, for, while, or until to iterate through the Array passed in as an
+argument, but must not use any other methods that iterate through an Array
+or any other collection.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="each_cons-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/09.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each_cons</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">empty?</span>
+  <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">until</span> <span class="ruby-identifier">idx</span>.<span class="ruby-identifier">next</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-identifier">pairs</span> = <span class="ruby-identifier">ary</span>[<span class="ruby-identifier">idx</span><span class="ruby-operator">..</span><span class="ruby-identifier">idx</span>.<span class="ruby-identifier">next</span>]
+    <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">pairs</span>)
+    <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-each_with_index" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">each_with_index</span><span
+            class="method-args">(ary) { |elem, idx| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may use <a href="Object.html#method-i-each">each</a>, <a
+href="Object.html#method-i-each_with_object">each_with_object</a>, inject,
+loop, for, while, or until to iterate through the Array passed in as an
+argument, but must not use any other methods that iterate through an Array
+or any other collection.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="each_with_index-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/06.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each_with_index</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>, <span class="ruby-identifier">idx</span>)
+    <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-each_with_object" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">each_with_object</span><span
+            class="method-args">(ary, obj) { |elem, obj| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may use <a href="Object.html#method-i-each">each</a>, <a
+href="Object.html#method-i-each_with_index">each_with_index</a>, inject,
+loop, for, while, or until to iterate through the Array passed in as an
+argument, but must not use any other methods that iterate through an Array
+or any other collection.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="each_with_object-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/07.rb, line 20</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each_with_object</span>(<span class="ruby-identifier">ary</span>, <span class="ruby-identifier">obj</span>)
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>, <span class="ruby-identifier">obj</span>) }
+  <span class="ruby-identifier">obj</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-fields" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">fields</span><span
+            class="method-args">(str)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write a method that returns all of the fields in a haphazardly formatted
+string. A variety of spaces, tabs, and commas separate the fields, with
+possibly multiple occurrences of each delimiter.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="fields-source">
+            <pre><span class="ruby-comment"># File lesson_2/regex_book/2.rb, line 5</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">fields</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">split</span>(<span class="ruby-regexp">/[ \t,]+/</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-format_date" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">format_date</span><span
+            class="method-args">(date)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Challenge: write a method that changes dates in the format 2016-06-17 to
+the format 17.06.2016. You must use a regular expression and should use
+methods described in this section.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="format_date-source">
+            <pre><span class="ruby-comment"># File lesson_2/regex_book/6.rb, line 5</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">format_date</span>(<span class="ruby-identifier">date</span>)
+  <span class="ruby-identifier">date</span>.<span class="ruby-identifier">sub</span>(<span class="ruby-regexp">/\A(\d\d\d\d)-(\d\d)-(\d\d)\z/</span>, <span class="ruby-string">&#39;\3.\2.\1&#39;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gather" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gather</span><span
+            class="method-args">(items) { |items| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="gather-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/03.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">gather</span>(<span class="ruby-identifier">items</span>)
+  <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">items</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-map" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">map</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may use <a href="Object.html#method-i-each">each</a>, <a
+href="Object.html#method-i-each_with_object">each_with_object</a>, <a
+href="Object.html#method-i-each_with_index">each_with_index</a>, inject,
+loop, for, while, or until to iterate through the Array passed in as an
+argument, but must not use any other methods that iterate through an Array
+or any other collection.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="map-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/03.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">map</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">new_ary</span> = []
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span> <span class="ruby-identifier">new_ary</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) }
+  <span class="ruby-identifier">new_ary</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-max_by" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">max_by</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Your method may use <a href="Object.html#method-i-each">each</a>, <a
+href="Object.html#method-i-each_with_object">each_with_object</a>, <a
+href="Object.html#method-i-each_with_index">each_with_index</a>, inject,
+loop, for, while, or until to iterate through the Array passed in as an
+argument, but must not use any other methods that iterate through an Array
+or any other collection.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="max_by-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/08.rb, line 16</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">max_by</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">empty?</span>
+  <span class="ruby-identifier">result</span> = []
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span> <span class="ruby-identifier">result</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) }
+  <span class="ruby-identifier">idx</span> = <span class="ruby-identifier">result</span>.<span class="ruby-identifier">index</span>(<span class="ruby-identifier">result</span>.<span class="ruby-identifier">max</span>)
+  <span class="ruby-identifier">ary</span>[<span class="ruby-identifier">idx</span>]
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-missing" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">missing</span><span
+            class="method-args">(ary)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>input: sorted ary of ints output: ary that has all missing ints between min
+and max</p>
+          
+          
+
+          
+          <div class="method-source-code" id="missing-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/03.rb, line 8</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">missing</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">missing</span> = []
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">first</span>.<span class="ruby-identifier">upto</span>(<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">last</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">int</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">missing</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">int</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">int</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">missing</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-mysterious_math" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">mysterious_math</span><span
+            class="method-args">(str)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write a method that changes every arithmetic operator (+, -, *, /) to a
+&#39;?&#39; and returns the resulting string. Don&#39;t modify the original
+string.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="mysterious_math-source">
+            <pre><span class="ruby-comment"># File lesson_2/regex_book/4.rb, line 4</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">mysterious_math</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">gsub</span>(<span class="ruby-regexp">/[+\-*\/]/</span>, <span class="ruby-string">&#39;?&#39;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-mystery_math" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">mystery_math</span><span
+            class="method-args">(str)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write a method that changes the first arithmetic operator (+, -, *, /) in a
+string to a &#39;?&#39; and returns the resulting string. Don&#39;t modify
+the original string.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="mystery_math-source">
+            <pre><span class="ruby-comment"># File lesson_2/regex_book/3.rb, line 5</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">mystery_math</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">sub</span>(<span class="ruby-regexp">/[+\-*\/]/</span>, <span class="ruby-string">&#39;?&#39;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-none-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">none?</span><span
+            class="method-args">(ary, &block)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="none-3F-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/08.rb, line 33</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">none?</span>(<span class="ruby-identifier">ary</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-operator">!</span><span class="ruby-identifier">any?</span>(<span class="ruby-identifier">ary</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-one-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">one?</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>logic: analyze each element for truthiness. As soon as we get one truthy
+return, we need to be prepared to return false if there is another truthy
+return</p>
+          
+          
+
+          
+          <div class="method-source-code" id="one-3F-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/09.rb, line 31</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">one?</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">one</span> = <span class="ruby-keyword">false</span>
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">one</span>
+    <span class="ruby-identifier">one</span> = <span class="ruby-keyword">true</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">one</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-param_passer" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">param_passer</span><span
+            class="method-args">(ary) { |*ary| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="param_passer-source">
+            <pre><span class="ruby-comment"># File exercises/medium_1/04.rb, line 32</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">param_passer</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-keyword">yield</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">ary</span>[<span class="ruby-value">2</span><span class="ruby-operator">..</span><span class="ruby-value">-1</span>])
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-reduce" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">reduce</span><span
+            class="method-args">(ary, init=0) { |agg, n| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Try to write a reduce method on your own that exhibits this behavior. Your
+reduce should take at least 1 argument that represents the array we&#39;ll
+operate on. It should also take an optional second argument that represents
+the default value for the accumulator.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="reduce-source">
+            <pre><span class="ruby-comment"># File lesson_1/reduce.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">reduce</span>(<span class="ruby-identifier">ary</span>, <span class="ruby-identifier">init</span>=<span class="ruby-value">0</span>)
+  <span class="ruby-identifier">agg</span> = <span class="ruby-identifier">init</span>
+
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">n</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">agg</span> = <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">agg</span>, <span class="ruby-identifier">n</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">agg</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-rot13" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rot13</span><span
+            class="method-args">(full_name)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="rot13-source">
+            <pre><span class="ruby-comment"># File exercises/easy_1/05.rb, line 30</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rot13</span>(<span class="ruby-identifier">full_name</span>)
+  <span class="ruby-identifier">fixed</span> = <span class="ruby-identifier">full_name</span>.<span class="ruby-identifier">chars</span>.<span class="ruby-identifier">map</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">char</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">forward</span> = (<span class="ruby-identifier">char</span>.<span class="ruby-identifier">ord</span> <span class="ruby-operator">+</span> <span class="ruby-value">13</span>).<span class="ruby-identifier">chr</span>
+    <span class="ruby-identifier">backward</span> = (<span class="ruby-identifier">char</span>.<span class="ruby-identifier">ord</span> <span class="ruby-operator">-</span> <span class="ruby-value">13</span>).<span class="ruby-identifier">chr</span>
+    <span class="ruby-keyword">case</span> <span class="ruby-identifier">char</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-string">&#39;a&#39;</span><span class="ruby-operator">..</span><span class="ruby-string">&#39;m&#39;</span>, <span class="ruby-string">&#39;A&#39;</span><span class="ruby-operator">..</span><span class="ruby-string">&#39;M&#39;</span> <span class="ruby-keyword">then</span> <span class="ruby-identifier">forward</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-string">&#39;n&#39;</span><span class="ruby-operator">..</span><span class="ruby-string">&#39;z&#39;</span>, <span class="ruby-string">&#39;N&#39;</span><span class="ruby-operator">..</span><span class="ruby-string">&#39;Z&#39;</span> <span class="ruby-keyword">then</span> <span class="ruby-identifier">backward</span>
+    <span class="ruby-keyword">else</span>                         <span class="ruby-identifier">char</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">fixed</span>.<span class="ruby-identifier">join</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-select" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">select</span><span
+            class="method-args">(ary) { |elem| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="select-source">
+            <pre><span class="ruby-comment"># File lesson_1/select.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">select</span>(<span class="ruby-identifier">ary</span>)
+  <span class="ruby-identifier">selected</span> = []
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">selected</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">elem</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">elem</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">selected</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-step" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">step</span><span
+            class="method-args">(first, last, diff) { |total| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>input: first item of range, last item, and step size between the two
+output: TBD logic:</p>
+          
+          
+
+          
+          <div class="method-source-code" id="step-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/01.rb, line 15</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">step</span>(<span class="ruby-identifier">first</span>, <span class="ruby-identifier">last</span>, <span class="ruby-identifier">diff</span>)
+  <span class="ruby-identifier">total</span> = <span class="ruby-identifier">first</span>
+  <span class="ruby-keyword">until</span> <span class="ruby-identifier">total</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">last</span>
+    <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">total</span>)
+    <span class="ruby-identifier">total</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">diff</span>
+  <span class="ruby-keyword">end</span>
+  (<span class="ruby-identifier">first</span><span class="ruby-operator">..</span><span class="ruby-identifier">last</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-times" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">times</span><span
+            class="method-args">(number) { |counter| ... }</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="times-source">
+            <pre><span class="ruby-comment"># File lesson_1/times.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">times</span>(<span class="ruby-identifier">number</span>)
+  <span class="ruby-identifier">counter</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">counter</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">number</span>
+    <span class="ruby-keyword">yield</span>(<span class="ruby-identifier">counter</span>)
+    <span class="ruby-identifier">counter</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">number</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-url-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">url?</span><span
+            class="method-args">(str)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write a method that returns true if its argument looks like a URL, false if
+it does not.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="url-3F-source">
+            <pre><span class="ruby-comment"># File lesson_2/regex_book/1.rb, line 4</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">url?</span>(<span class="ruby-identifier">str</span>)
+  <span class="ruby-identifier">str</span>.<span class="ruby-identifier">match?</span>(<span class="ruby-regexp">/\Ahttps?:\/\/\S+\z/</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-word_finder" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">word_finder</span><span
+            class="method-args">(letters, size=letters.size, places=[], inserts=[])</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="word_finder-source">
+            <pre><span class="ruby-comment"># File word_finder.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">word_finder</span>(<span class="ruby-identifier">letters</span>, <span class="ruby-identifier">size</span>=<span class="ruby-identifier">letters</span>.<span class="ruby-identifier">size</span>, <span class="ruby-identifier">places</span>=[], <span class="ruby-identifier">inserts</span>=[])
+  <span class="ruby-identifier">possibilities</span> = <span class="ruby-identifier">letters</span>.<span class="ruby-identifier">permutation</span>(<span class="ruby-identifier">size</span>).<span class="ruby-identifier">map</span>(<span class="ruby-operator">&amp;</span><span class="ruby-value">:join</span>)
+  <span class="ruby-identifier">possibilities</span>.<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">word</span><span class="ruby-operator">|</span> <span class="ruby-identifier">word</span>.<span class="ruby-identifier">insert</span>(<span class="ruby-identifier">places</span>[<span class="ruby-value">0</span>], <span class="ruby-identifier">inserts</span>[<span class="ruby-value">0</span>]) } <span class="ruby-keyword">if</span> <span class="ruby-identifier">places</span>[<span class="ruby-value">0</span>]
+  <span class="ruby-identifier">possibilities</span>.<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">word</span><span class="ruby-operator">|</span> <span class="ruby-identifier">word</span>.<span class="ruby-identifier">insert</span>(<span class="ruby-identifier">places</span>[<span class="ruby-value">1</span>], <span class="ruby-identifier">inserts</span>[<span class="ruby-value">1</span>]) } <span class="ruby-keyword">if</span> <span class="ruby-identifier">places</span>[<span class="ruby-value">1</span>]
+  <span class="ruby-identifier">possibilities</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-zip" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">zip</span><span
+            class="method-args">(ary1, ary2)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Write your own version of zip that does the same type of operation. It
+should take two Arrays as arguments, and return a new Array (the original
+Arrays should not be changed). Do not use the built-in Array#zip method.
+You may assume that both input arrays have the same number of elements.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="zip-source">
+            <pre><span class="ruby-comment"># File exercises/easy_2/02.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">zip</span>(<span class="ruby-identifier">ary1</span>, <span class="ruby-identifier">ary2</span>)
+  <span class="ruby-identifier">zipped</span> = []
+  <span class="ruby-identifier">ary1</span>.<span class="ruby-identifier">each_with_index</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elem</span>, <span class="ruby-identifier">idx</span><span class="ruby-operator">|</span> <span class="ruby-identifier">zipped</span> <span class="ruby-operator">&lt;&lt;</span> [<span class="ruby-identifier">elem</span>, <span class="ruby-identifier">ary2</span>[<span class="ruby-identifier">idx</span>]] }
+  <span class="ruby-identifier">zipped</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://rdoc.github.io/rdoc">RDoc</a> 5.0.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
